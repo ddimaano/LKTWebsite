@@ -1,0 +1,69 @@
+<manifest alg="2" build="2018.0.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="lowkicktournaments.com" resolutions="1x" timestamp="1513735260971">
+  <folder name="css">
+    <file name="site_global.css" crc="444006867"/>
+    <file name="index.css" crc="4056407668" ref="index"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
+    <file name="museutils.js" crc="3803043152" ref="index"/>
+    <file name="whatinput.js" crc="86476730" ref="index"/>
+    <file name="museconfig.js" crc="4153641093" ref="index"/>
+    <file name="jquery.watch.js" crc="99325471" ref="index"/>
+    <file name="require.js" crc="4157109226" ref="index"/>
+  </folder>
+  <folder name="images">
+    <file name="u554-7.png" crc="324975554" ref="index"/>
+    <file name="lowkick circle2.png" crc="357051481" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="21147952_1534468086614850_7691124595532759040_n-crop-u315.jpg" crc="3946960101" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="u402-19.png" crc="438744738" ref="index"/>
+    <file name="copy of received_10210413662084630-crop-u172.jpg" crc="389825148" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="u551-14.png" crc="4165005909" ref="index"/>
+    <file name="18519580_10211231663140473_5327174084852559146_n-crop-u104.jpg" crc="3777003488" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="u568-11.png" crc="506596189" ref="index"/>
+    <file name="20842181_1812667625428539_2554441463298299567_n-crop-u114.jpg" crc="3933264739" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="u571-11.png" crc="225531200" ref="index"/>
+    <file name="16406875_1854976391414038_8733263571981542346_n-crop-u415.jpg" crc="4021096372" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="u369-13.png" crc="497788299" ref="index"/>
+    <file name="23668247_358957677898508_7546953787630419968_n-crop-u229.jpg" crc="142034749" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="u422-15.png" crc="433144883" ref="index"/>
+    <file name="17362544_10208837573273473_54204074721368351_n-crop-u134.jpg" crc="3890762721" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="u378-8.png" crc="331074623" ref="index"/>
+    <file name="copy of fullsizer1_09-crop-u165.jpg" crc="3960815873" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="u574-11.png" crc="4003323898" ref="index"/>
+    <file name="18119159_10206788265144493_7130721325475643319_n-crop-u444.jpg" crc="474713805" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="u533-9.png" crc="4101994549" ref="index"/>
+    <file name="copy of fullsizer1-crop-u482.jpg" crc="3994033552" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="u559-9.png" crc="251305938" ref="index"/>
+    <file name="11149572_10203623885716534_5118246694750820014_n-crop-u451.jpg" crc="114040585" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="u562-11.png" crc="3952613979" ref="index"/>
+    <file name="copy of imagejpeg_0_04-crop-u509.jpg" crc="302500284" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="u565-9.png" crc="499599570" ref="index"/>
+  </folder>
+  <file name="index.html" crc="4234508836" seo="true" mt="1513735256066" redirect="true"/>
+</manifest>

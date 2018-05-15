@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>LowKick</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="assets/css/animate.css">
+<link rel="stylesheet" type="text/css" href="assets/css/font.css">
+<link rel="stylesheet" type="text/css" href="assets/css/li-scroller.css">
+<link rel="stylesheet" type="text/css" href="assets/css/slick.css">
+<link rel="stylesheet" type="text/css" href="assets/css/jquery.fancybox.css">
+<link rel="stylesheet" type="text/css" href="assets/css/theme.css">
+<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+<!--[if lt IE 9]>
+<script src="assets/js/html5shiv.min.js"></script>
+<script src="assets/js/respond.min.js"></script>
+<![endif]-->
+<style>
+	/* Tooltip container */
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: white;
+    color: #000000;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+ 
+    /* Position the tooltip text */
+    position: relative;
+    z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+.button {
+    background-color: #424ef4; /* Green */
+    border: none;
+    color: #fff;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: -50px 2px;
+    cursor: pointer;
+}
+</style>
+</head>
+
+<!--Body-->
+<body>
+<!--Scroll to top arrow-->
+<a class="scrollToTop" href="#"><i class="fa fa-angle-up"></i></a>
+        <div class="header_bottom">
+           <!-- edit line 62-65 in style.css -->
+          <div class = "img-center"><img src="https://i.imgur.com/76PDlGB.png"  alt = "" width="104" height="100" ></div><!-- filler for now -->
+        </div>
+<div class="container">
+  <header id="header">
+    <!--Top Bar-->
+    <div class="row">
+        <div class="header_top">
+            <ul class="top_nav col-lg-6">
+              <li><a href="index.html">Home</a></li>
+			  <li><a href="Event.html">Events</a></li>
+              <li><a href="pages/media.html">Media</a></li>
+              <li><a href="dreamteam.html">The Dream Team</a></li>
+		      <li><a href="pages/windycity.html">Windy City Legends</a></li>
+            </ul>
+          <div class="header_top_right">
+			<p>
+				<a href="login-system/index.php" class="button">Log In</a>
+			</p>
+            <p>
+				<script> document.write(new Date().toLocaleDateString()); </script>
+			</p>
+</div>
+        </div>
+      </div>
+      <div class="col-lg-12 col-md-12 col-sm-12">
+        <!--Row for logo-->
+
+      </div>
+</header>
+  <section id="sliderSection">
+    <div class="row">
+      <div class="col-lg-8 col-md-8 col-sm-8">
+        <div class="slick_slider">
+          <!--Event Slideshow-->
+          <div class="single_iteam"> <a href="pages/single_page.html"> <img src="images/slider_img4.jpg" alt=""></a>
+            <div class="slider_article">
+              <h2><a class="slider_tittle" href="pages/single_page.html">Event 1</a></h2>
+              <p>Buy our custom fight stick skins!</p>
+            </div>
+          </div>
+          <div class="single_iteam"> <a href="pages/single_page.html"> <img src="images/slider_img2.jpg" alt=""></a>
+            <div class="slider_article">
+              <h2><a class="slider_tittle" href="pages/single_page.html">Event 2</a></h2>
+              <p>Join the community today!</p>
+            </div>
+          </div>
+			 <div class="single_iteam"> <a href="pages/single_page.html"> <img src="https://scontent-ort2-1.xx.fbcdn.net/v/t1.0-9/24129610_1927541893953152_3739329653637155090_n.jpg?oh=415a443235433121b4c02e31efab13d5&oe=5AD6009A" alt=""></a>
+            <div class="slider_article">
+              <h2><a class="slider_tittle" href="pages/single_page.html">Ending the year with a bang!</a></h2>
+              <p>Don't miss the fight before christmas on December 23rd at Raid Gaming Lounge</p>
+            </div>
+          </div>
+          <div class="single_iteam"> <a href="pages/single_page.html"> <img src="images/slider_img3.jpg" alt=""></a>
+            <div class="slider_article">
+              <h2><a class="slider_tittle" href="pages/single_page.html">Event 3</a></h2>
+              <p>LKT Roundhouse Monthly!</p>
+            </div>
+          </div>
+          <div class="single_iteam"> <a href="pages/single_page.html"> <img src="images/slider_img1.jpg" alt=""></a>
+            <div class="slider_article">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-4 col-sm-4">
+        <div class="latest_post">
+          <!--Upcoming Events-->
+          <h2><span>Upcoming Events</span></h2>
+          <div class="single_sidebar">
+            <ul class="spost_nav">
+              <li>
+                <div class="media wow fadeInDown"> <a href="https://smash.gg/tournament/the-fight-before-christmas" class="media-left"> <img alt="" src="https://scontent-ort2-1.xx.fbcdn.net/v/t1.0-9/24129610_1927541893953152_3739329653637155090_n.jpg?oh=415a443235433121b4c02e31efab13d5&oe=5AD6009A"> </a>
+                  <div class="media-body"> <a href="https://www.facebook.com/events/319411628537876/" class="media-body"> Fight Before Christmas</a> </div>
+                </div>
+              </li>
+              <li>
+                <div class="media wow fadeInDown"> <a href="pages/single_page.html" class="media-left"> <img alt="" src="images/post_img2.jpg"> </a>
+                  <div class="media-body"> <a href="pages/single_page.html" class="catg_title"> Annual Chicago Video Gamers Meet up</a> </div>
+                </div>
+              </li>
+              <li>
+                <div class="media wow fadeInDown"> <a href="pages/single_page.html" class="media-left"> <img alt="" src="images/post_img1.jpg"> </a>
+                  <div class="media-body"> <a href="https://www.facebook.com/events/1490916410969913" class="catg_title"> Chicago Dragon Ball Fighter Z Launch Tournament</a> </div>
+                </div>
+              </li>
+              <li>
+                <div class="media wow fadeInDown"> <a href="pages/single_page.html" class="media-left"> <img alt="" src="images/post_img2.jpg"> </a>
+                  <div class="media-body"> <a href="pages/single_page.html" class="catg_title"> Windy City Legends</a> </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="contentSection">
+    <div class="row">
+      <div class="col-lg-8 col-md-8 col-sm-8">
+        <div class="left_content">
+          <div class="single_post_content">
+            <!--Business-->
+            <h2><span>Streams</span></h2>
+
+			  <iframe width="710" height="360" src="https://www.youtube.com/embed/VAyogqgBh1s" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+			  <!-- turn into youtube player -->
+			  
+            <div class="single_post_content_left"> </div>
+            <div class="single_post_content_right"> </div>
+          </div>
+				  <div class="media wow fadeInDown col-lg-offset-0 col-lg-3"> <a href="pages/single_page.html" class="media-left"> <img alt="Insert Dojo pic" src=""> </a> <!-- update with dojo pic -->
+                    <div class="media-body"> <a href="https://www.youtube.com/watch?v=5iJJhNCnCnY&t=1946s" class="catg_title"> Dojo Throwdown #2 </a> </div>
+                  </div><!-- might not work since its over an hour -->
+                  <div class="media wow fadeInDown col-lg-offset-0 col-lg-3"> <a href="pages/single_page.html" class="media-left"> <img alt="" src="images/photograph_img4.jpg"> </a>
+                    <div class="media-body"> <a href="https://www.youtube.com/watch?v=lG-iMO9AucE&t=21384s" class="catg_title"> RoundHouse 2 Sponsored by GGA</a> </div><!-- probably doesnt work because its 6 hours long-->
+                  </div>
+                  <div class="media wow fadeInDown col-lg-offset-0 col-lg-3"> <a href="pages/single_page.html" class="media-left"> <img alt="" src=""> </a> <!-- update with bar fights pic -->
+                    <div class="media-body"> <a href="https://www.youtube.com/watch?v=wcitvoAT3-8&t=3522s" class="catg_title"> LKT Bar Fights Week 1</a> </div>
+                  </div>
+                  <div class="media wow fadeInDown col-lg-offset-0 col-lg-3"> <a href="pages/single_page.html" class="media-left"> <img alt="" src="images/slider_img2.jpg"> </a> <!-- update with replay pic -->
+                    <div class="media-body"> <a href="https://www.youtube.com/watch?v=RIC0Aqlwpqo" class="catg_title"> Level Up at Replay Trailer</a> </div>
+                  </div>		
+	    </div>
+      </div>
+<div class="col-lg-4 col-md-4 col-sm-4">
+    <div class="latest_post">
+          <div class="single_sidebar">
+		<h2><span>Past Events</span></h2>
+            <ul class="spost_nav">
+              <li>
+                <div class="media wow fadeInDown"> <a href="https://smash.gg/tournament/lkt-monthly-roundhouse-sponsored-by-replay-lincoln-park/details" class="media-left"> <img alt="" src="https://scontent-ort2-1.xx.fbcdn.net/v/t1.0-9/22489658_1860791967294812_2323779571134671665_n.jpg?oh=3e45e710dcbcba30f9f892f3f2ef9681&oe=5ABF7ABE"> </a>
+                  <div class="media-body"> <a href="https://smash.gg/tournament/lkt-monthly-roundhouse-sponsored-by-replay-lincoln-park/details" class="catg_title"> Roundhouse 3 Sponsored by Replay Lincoln Park</a> </div>
+                </div>
+              </li>
+              <li>
+                <div class="media wow fadeInDown"> <a href="pages/single_page.html" class="media-left"> <img alt="" src="https://scontent-ort2-1.xx.fbcdn.net/v/t31.0-8/20023748_1446554895367420_1045239003661841878_o.jpg?oh=aa79ae07ec672884fe54ac6bb116ce08&oe=5A8CD746"> </a>
+                  <div class="media-body"> <a href="https://smash.gg/tournament/lkt-monthly-roundhouse-sponsored-by-galloping-ghost-arcade/events" class="catg_title"> Roundhouse Sponsored by Galloping Ghost </a> </div>
+                </div>
+              </li>
+              <li>
+                <div class="media wow fadeInDown"> <a href="pages/single_page.html" class="media-left"> <img alt="" src="https://scontent-ort2-1.xx.fbcdn.net/v/t1.0-9/20637789_1472129582809951_6148928766196989464_n.jpg?oh=ff16ce6daa0f65074f39ff8b844c99ce&oe=5ACDB050"> </a>
+                  <div class="media-body"> <a href="https://smash.gg/tournament/lkt-guilty-gear-blazblue-tournament" class="catg_title"> Dojo Throwdown Anime Monthly at the Japanese Culture Center</a> </div>
+                </div>
+              </li>
+              <li>
+                <div class="media wow fadeInDown"> <a href="pages/single_page.html" class="media-left"> <img alt="" src="https://scontent-ort2-1.xx.fbcdn.net/v/t1.0-9/21231103_1494841293872113_101352024015212570_n.jpg?oh=a9dd06cc45dc9e8f7dc640c056678a6c&oe=5AC60664"> </a>
+                  <div class="media-body"> <a href="pages/single_page.html" class="catg_title"> Bar Fights at Duffy's Tavern</a> </div>
+                </div>
+              </li>
+            </ul>
+		</div>
+      </div>
+    </div>
+	  </div>
+  </section>
+  <footer id="footer">
+	  <div class = "text-center col-lg-7 col-lg-offset-2">
+    	<ul class="social_nav col-lg-5 col-lg-offset-5">
+    	  <li class="facebook"><a href="https://www.facebook.com/lowkicktournaments/"></a></li>
+    	  <li class="twitter"><a href="https://twitter.com/LKTournaments"></a></li>
+    	  <li class="googleplus"><a href="https://www.twitch.tv/lowkicktournaments/"></a></li>
+    	  <!--Made a twitch button instead. Just needs artworks - Ryan-->
+    	  <li class="youtube"><a href="https://www.youtube.com/channel/UCqPTwII1BeCOFMEn6DkGNPw"></a></li>
+    	  <li class="mail"><a href="mailto:lowkicktournaments@gmail.com"></a></li>
+  	  </ul>
+	  </div>
+	  <h2 class="col-lg-2 col-lg-offset-4" style="text-align:center">Contact</h2> <!-- hyperlink into contact page -->
+	  <h2 class="col-lg-2 col-lg-offset-1">FAQ</h2> <!-- hyperlink into contact page -->
+	</footer>
+	</div>
+<script src="assets/js/jquery.min.js"></script> 
+<script src="assets/js/wow.min.js"></script> 
+<script src="assets/js/bootstrap.min.js"></script> 
+<script src="assets/js/slick.min.js"></script> 
+<script src="assets/js/jquery.li-scroller.1.0.js"></script> 
+<script src="assets/js/jquery.newsTicker.min.js"></script> 
+<script src="assets/js/jquery.fancybox.pack.js"></script> 
+<script src="assets/js/custom.js"></script>
+	</body>
+</html>
